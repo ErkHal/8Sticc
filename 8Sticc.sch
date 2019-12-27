@@ -1,0 +1,390 @@
+EESchema Schematic File Version 4
+LIBS:Sticc-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sticc-rescue:ProMicro-promicro MCU1
+U 1 1 5BE6AED5
+P 8350 2550
+F 0 "MCU1" H 8350 3587 60  0000 C CNN
+F 1 "ProMicro" H 8350 3481 60  0000 C CNN
+F 2 "promicro:ProMicro" H 8450 1500 60  0001 C CNN
+F 3 "" H 8450 1500 60  0000 C CNN
+	1    8350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sticc-rescue:KEYSW-keyboard_parts K1
+U 1 1 5BE6B21F
+P 4950 1600
+F 0 "K1" H 4950 1833 60  0000 C CNN
+F 1 "KEYSW" H 4950 1500 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4950 1600 60  0001 C CNN
+F 3 "" H 4950 1600 60  0000 C CNN
+	1    4950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sticc-rescue:KEYSW-keyboard_parts K3
+U 1 1 5BE6B2B0
+P 4950 2200
+F 0 "K3" H 4950 2433 60  0000 C CNN
+F 1 "KEYSW" H 4950 2100 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4950 2200 60  0001 C CNN
+F 3 "" H 4950 2200 60  0000 C CNN
+	1    4950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sticc-rescue:KEYSW-keyboard_parts K6
+U 1 1 5BE6B31B
+P 5800 2800
+F 0 "K6" H 5800 3033 60  0000 C CNN
+F 1 "KEYSW" H 5800 2700 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5800 2800 60  0001 C CNN
+F 3 "" H 5800 2800 60  0000 C CNN
+	1    5800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sticc-rescue:KEYSW-keyboard_parts K2
+U 1 1 5BE6B394
+P 5800 1600
+F 0 "K2" H 5800 1833 60  0000 C CNN
+F 1 "KEYSW" H 5800 1500 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5800 1600 60  0001 C CNN
+F 3 "" H 5800 1600 60  0000 C CNN
+	1    5800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sticc-rescue:KEYSW-keyboard_parts K4
+U 1 1 5BE6B3DB
+P 5800 2200
+F 0 "K4" H 5800 2433 60  0000 C CNN
+F 1 "KEYSW" H 5800 2100 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5800 2200 60  0001 C CNN
+F 3 "" H 5800 2200 60  0000 C CNN
+	1    5800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sticc-rescue:KEYSW-keyboard_parts K5
+U 1 1 5BE6B6F1
+P 4950 2800
+F 0 "K5" H 4950 3033 60  0000 C CNN
+F 1 "KEYSW" H 4950 2700 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4950 2800 60  0001 C CNN
+F 3 "" H 4950 2800 60  0000 C CNN
+	1    4950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sticc-rescue:KEYSW-keyboard_parts K7
+U 1 1 5BE6B77C
+P 4950 3400
+F 0 "K7" H 4950 3633 60  0000 C CNN
+F 1 "KEYSW" H 4950 3300 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4950 3400 60  0001 C CNN
+F 3 "" H 4950 3400 60  0000 C CNN
+	1    4950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sticc-rescue:KEYSW-keyboard_parts K8
+U 1 1 5BE6B7D9
+P 5800 3400
+F 0 "K8" H 5800 3633 60  0000 C CNN
+F 1 "KEYSW" H 5800 3300 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5800 3400 60  0001 C CNN
+F 3 "" H 5800 3400 60  0000 C CNN
+	1    5800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5BE6C190
+P 4650 1850
+F 0 "D1" V 4696 1771 50  0000 R CNN
+F 1 "D" V 4605 1771 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 4650 1850 50  0001 C CNN
+F 3 "~" H 4650 1850 50  0001 C CNN
+	1    4650 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5BE6C28C
+P 5500 1850
+F 0 "D2" V 5546 1771 50  0000 R CNN
+F 1 "D" V 5455 1771 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 5500 1850 50  0001 C CNN
+F 3 "~" H 5500 1850 50  0001 C CNN
+	1    5500 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5BE6C2F7
+P 4650 2450
+F 0 "D3" V 4696 2371 50  0000 R CNN
+F 1 "D" V 4605 2371 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 4650 2450 50  0001 C CNN
+F 3 "~" H 4650 2450 50  0001 C CNN
+	1    4650 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5BE6C338
+P 5500 2450
+F 0 "D4" V 5546 2371 50  0000 R CNN
+F 1 "D" V 5455 2371 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 5500 2450 50  0001 C CNN
+F 3 "~" H 5500 2450 50  0001 C CNN
+	1    5500 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5BE6C3B3
+P 4650 3050
+F 0 "D5" V 4696 2971 50  0000 R CNN
+F 1 "D" V 4605 2971 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 4650 3050 50  0001 C CNN
+F 3 "~" H 4650 3050 50  0001 C CNN
+	1    4650 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5BE6C3EB
+P 5500 3050
+F 0 "D6" V 5546 2971 50  0000 R CNN
+F 1 "D" V 5455 2971 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 5500 3050 50  0001 C CNN
+F 3 "~" H 5500 3050 50  0001 C CNN
+	1    5500 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5BE6C46E
+P 4650 3650
+F 0 "D7" V 4696 3571 50  0000 R CNN
+F 1 "D" V 4605 3571 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 4650 3650 50  0001 C CNN
+F 3 "~" H 4650 3650 50  0001 C CNN
+	1    4650 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5BE6C4AB
+P 5500 3650
+F 0 "D8" V 5546 3571 50  0000 R CNN
+F 1 "D" V 5455 3571 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 5500 3650 50  0001 C CNN
+F 3 "~" H 5500 3650 50  0001 C CNN
+	1    5500 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 1600 4650 1700
+Wire Wire Line
+	4650 2000 5500 2000
+Wire Wire Line
+	5500 1600 5500 1700
+Wire Wire Line
+	5250 1600 5250 2200
+Wire Wire Line
+	6100 1600 6100 2200
+Wire Wire Line
+	4650 2300 4650 2200
+Wire Wire Line
+	4650 2600 5500 2600
+Wire Wire Line
+	5500 2300 5500 2200
+Wire Wire Line
+	5250 2200 5250 2800
+Connection ~ 5250 2200
+Wire Wire Line
+	6100 2200 6100 2800
+Connection ~ 6100 2200
+Wire Wire Line
+	4650 2800 4650 2900
+Wire Wire Line
+	4650 3200 5500 3200
+Wire Wire Line
+	5500 2900 5500 2800
+Wire Wire Line
+	4650 3400 4650 3500
+Wire Wire Line
+	4650 3800 5500 3800
+Wire Wire Line
+	5500 3500 5500 3400
+Wire Wire Line
+	5250 2800 5250 3400
+Wire Wire Line
+	6100 2800 6100 3400
+NoConn ~ 7650 2200
+NoConn ~ 7650 2300
+NoConn ~ 7650 2400
+NoConn ~ 7650 2500
+NoConn ~ 7650 2600
+NoConn ~ 7650 2700
+NoConn ~ 7650 2800
+Wire Wire Line
+	6100 3400 6100 3600
+Connection ~ 6100 3400
+Wire Wire Line
+	4650 2000 4350 2000
+Connection ~ 4650 2000
+Wire Wire Line
+	4650 2600 4400 2600
+Connection ~ 4650 2600
+Wire Wire Line
+	4650 3200 4400 3200
+Connection ~ 4650 3200
+Wire Wire Line
+	4650 3800 4400 3800
+Connection ~ 4650 3800
+Text Label 4350 2000 0    50   ~ 0
+ROW0
+Text Label 4400 2600 0    50   ~ 0
+ROW1
+Text Label 4400 3200 0    50   ~ 0
+ROW2
+Text Label 4400 3800 0    50   ~ 0
+ROW3
+Wire Wire Line
+	5250 1600 5250 1250
+Connection ~ 5250 1600
+Text Label 5250 1250 0    50   ~ 0
+COL0
+Text Label 6100 1250 0    50   ~ 0
+COL1
+Connection ~ 6100 2800
+Connection ~ 5250 2800
+Wire Wire Line
+	6100 1300 7150 1300
+Wire Wire Line
+	7150 1300 7150 2400
+Wire Wire Line
+	7150 2400 7650 2400
+Wire Wire Line
+	7000 1250 7000 2500
+Wire Wire Line
+	7000 2500 7650 2500
+Wire Wire Line
+	5500 2000 6900 2000
+Wire Wire Line
+	6900 2000 6900 2600
+Wire Wire Line
+	6900 2600 7650 2600
+Connection ~ 5500 2000
+Wire Wire Line
+	5500 2600 6700 2600
+Wire Wire Line
+	6700 2600 6700 2700
+Wire Wire Line
+	6700 2700 7650 2700
+Connection ~ 5500 2600
+Wire Wire Line
+	5500 3200 6700 3200
+Wire Wire Line
+	6700 3200 6700 2800
+Wire Wire Line
+	6700 2800 7650 2800
+Connection ~ 5500 3200
+Wire Wire Line
+	5500 3800 5750 3800
+Wire Wire Line
+	6900 3800 6900 2900
+Wire Wire Line
+	6900 2900 7650 2900
+Connection ~ 5500 3800
+Wire Wire Line
+	5250 1250 7000 1250
+Wire Wire Line
+	6100 1600 6100 1300
+Connection ~ 6100 1600
+$Comp
+L Switch:SW_SPST SW_RST1
+U 1 1 5C05346E
+P 9550 1950
+F 0 "SW_RST1" V 9504 2048 50  0000 L CNN
+F 1 "SW_SPST" V 9595 2048 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 9550 1950 50  0001 C CNN
+F 3 "" H 9550 1950 50  0001 C CNN
+	1    9550 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9550 1750 9300 1750
+Wire Wire Line
+	9300 1750 9300 1900
+Wire Wire Line
+	9300 1900 9050 1900
+Wire Wire Line
+	9550 2150 9300 2150
+Wire Wire Line
+	9300 2150 9300 2000
+Wire Wire Line
+	9300 2000 9050 2000
+$Comp
+L Sticc-rescue:KEYSW-keyboard_parts K9
+U 1 1 5C05BA91
+P 5100 4050
+F 0 "K9" H 5100 4283 60  0000 C CNN
+F 1 "KEYSW" H 5100 3950 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_2.00u_PCB" H 5100 4050 60  0001 C CNN
+F 3 "" H 5100 4050 60  0000 C CNN
+	1    5100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5C05BA98
+P 4800 4300
+F 0 "D9" V 4846 4221 50  0000 R CNN
+F 1 "D" V 4755 4221 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_hand" H 4800 4300 50  0001 C CNN
+F 3 "~" H 4800 4300 50  0001 C CNN
+	1    4800 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 4050 4800 4150
+Wire Wire Line
+	5250 3400 5250 3750
+Wire Wire Line
+	5250 3750 5400 3750
+Wire Wire Line
+	5400 3750 5400 4050
+Connection ~ 5250 3400
+Wire Wire Line
+	4650 3800 4650 4450
+Wire Wire Line
+	4650 4450 4800 4450
+Connection ~ 4800 4450
+Wire Wire Line
+	5750 4450 5750 3800
+Wire Wire Line
+	4800 4450 5750 4450
+Connection ~ 5750 3800
+Wire Wire Line
+	5750 3800 6900 3800
+$EndSCHEMATC
